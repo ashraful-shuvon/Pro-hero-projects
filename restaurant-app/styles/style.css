@@ -22,6 +22,7 @@
     border-radius: 8px;
     border: none;
     background: rgb(82, 196, 3);
+    cursor: pointer;
 }
 
 #hero{
@@ -107,6 +108,9 @@
 
 .card-container{
     margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Comic Relief", system-ui;
 }
 
 .card {
