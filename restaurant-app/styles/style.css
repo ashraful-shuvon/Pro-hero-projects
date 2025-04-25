@@ -136,3 +136,54 @@
     padding: 14px 18px 14px 18px;
 }
 
+
+.details-container{
+    display: flex;
+    font-family: "Comic Relief", system-ui;
+}
+
+
+.left-box img{
+    height: 400px;
+    width: 720px;
+}
+#details .right-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#details .title {
+    color: rgb(16, 16, 16);
+    font-family: "Comic Relief", system-ui;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 30px;
+}
+
+#details .subtitle {
+    opacity: 0.6;
+    color: rgb(16, 16, 16);
+    font-family: "Comic Relief", system-ui;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#details .right-box .description {
+    opacity: 0.7;
+    color: rgb(16, 16, 16);
+    font-family: "Comic Relief", system-ui;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 40px;
+}
